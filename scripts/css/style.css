@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+*+*
+{
+    margin-bottom:.5rem;
+}
+body
+{
+    background: black;
+    color: white;
+}
+button
+{
+    cursor: pointer;
+}
+
+button:active
+{
+    transform:scale(.9);
+    box-shadow: 1px 1px 10px red;
+}
+
+.FormContainer,.ResponseContainer
+{
+    width: 25rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid green;
+    margin-top: 50px;
+
+
+}
+
+.FormContainer input,.FormContainer button
+{
+    background: none;
+    color: white;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.ResponseContainer #response
+{
+    color: green;
+    text-transform: capitalize;
+    font-size: large;
+
+}
+
+.container-wrapper
+{
+    display: flex;
+    gap: 2rem;
+    width:100wh;
+    justify-content: center;
+}
+.header-text
+{
+    text-align: center;
+}
