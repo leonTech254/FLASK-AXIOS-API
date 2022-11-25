@@ -1,5 +1,17 @@
 <h1>FLASK-AXIOS API IMPLEMENTATION</h1>
+<h3 style="text-decoration:underline;">PROCEDURE</h3>
+<div>
+<ol>
+<li>install python requirements ,flask,flask_cors <kbd>(pip install ...)</kbd></li>
+<li>start server <kbd>python3 main.py</kbd> (running on port 5000) in "FlaskServer" directory</li>
+<li>start GUI web directory=in root directory(index.html)</li>
+
+</ol>
+
+</div>
+
 <span style="color:red;">AXIOS CODE</span> <br> <hr>
+
 <pre>
 <code>
 let  data={"name":name,"school":school,"age":age}
@@ -39,7 +51,4 @@ def postDataDemo():
     return "data"
 
 </code>
-
-
-
 </pre>
