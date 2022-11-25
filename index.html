@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./scripts/css/style.css">
-
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
         <title>leonApp | Post form data to Flask</title>
     </head>
@@ -17,18 +17,20 @@
         </div>
         <div class="container-wrapper">        
     <div class="FormContainer">
-        <input type="text" placeholder="Enter name" id="fname">
-        <input type="text" placeholder="Enter name" id="school">
-        <input type="text" placeholder="Enter name" id="age">
-        <button>send Data</button>
+        <input type="text" placeholder="Enter name" id="name">
+        <input type="text" placeholder="Enter school" id="school">
+        <input type="text" placeholder="Enter age" id="age">
+        <button onclick="SubmitData()">send Data</button>
     </div>
     <div class="ResponseContainer">
         <div class="span"><h3>DISPLAY RESPONSE</h3></div>
-    <span id="response">hello leon</span>
+    <span id="response" >hello leon</span>
 
 
     </div>
 </div>
+
+<script src="./scripts/js/script.js"></script>
         
     </body>
     </html>
